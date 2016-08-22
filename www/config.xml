@@ -43,6 +43,9 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+
+    <gap:plugin name="cordova-plugin-image-picker" source="npm" />
+
   <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
   <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
   <gap:plugin name="org.apache.cordova.file" source="npm"/>
